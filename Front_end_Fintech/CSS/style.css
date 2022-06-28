@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('C:\\Users\\Administrator\\Documents\\Educacao\\FIAP\\Fintech\\Front_end\\Assets\\bg.png');
+    background-size: cover;
+    background-position: left;
+}
+
+#login {
+    width: max-content;
+    padding: 10px;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    color: #F4F90B;
+    -webkit-text-stroke: 2px #FC7124;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Acme', sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: #0C7E7E;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    margin: 0px auto 5px auto;
+}
+
+form {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+
+}
+
+input {
+    width: 425px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #FAFAFA;
+    border: 5px;
+    margin: 7px auto ;
+    padding: 10px 15px 0px 10px;
+}
+
+input::placeholder {
+    font-family: 'Acme';
+    font-weight: 400;
+    font-size: 25px;
+    color: #C5BFBF;
+    padding-left: 10px;
+}
+
+button {
+    width: 300px;
+    height: 45px;
+    background: #077979;
+    border-radius: 20px;
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #EFEFEF;
+    margin: 15px auto;
+}
+
+button:hover {
+    background: #EFEFEF;
+    color: #077979;
+}
+
+a, p{
+    width: fit-content;
+    height: 25px;
+    font-family: 'Acme';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 2px auto;
+}
+
+a:active{
+    color: #077979;
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 820px)
+{
+    h1 {
+        font-family: 'Acme', sans-serif;
+        font-weight: 400;
+        font-size: 125px;
+        color: #F4F90B;
+        -webkit-text-stroke: 3px #FC7124;
+        text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+        font-family: 'Acme', sans-serif;
+        font-weight: 400;
+        font-size: 80px;
+        color: #0C7E7E;
+        text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+        margin: 0px auto 5px auto;
+        -webkit-text-stroke: 0.5px #EFEFEF;
+    } 
+
+    input {
+        width: 470px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #FAFAFA;
+        border: 5px;
+        margin: 7px auto ;
+        padding: 10px 15px 0px 10px;
+    }
+    
+    input::placeholder {
+        font-family: 'Acme';
+        font-weight: 400;
+        font-size: 25px;
+        color: #C5BFBF;
+        padding-left: 10px;
+    }
+    
+    button {
+        width: 350px;
+        height: 55px;
+        background: #077979;
+        border-radius: 20px;
+        font-family: 'Acme';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        color: #EFEFEF;
+        margin: 15px auto;
+    }
+
+}
+
+
+@media screen and (max-device-width: 480px)
+{
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('C:\\Users\\Administrator\\Documents\\Educacao\\FIAP\\Fintech\\Front_end\\Assets\\bgmobile.png');
+    background-size: cover;
+    background-position: center;
+    }
+
+    h1 {
+        font-family: 'Acme', sans-serif;
+        font-weight: 400;
+        font-size: 125px;
+        color: #F4F90B;
+        -webkit-text-stroke: 3px #FC7124;
+        text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+        font-family: 'Acme', sans-serif;
+        font-weight: 400;
+        font-size: 80px;
+        color: #0C7E7E;
+        text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+        margin: 0px auto 5px auto;
+        -webkit-text-stroke: 0.5px #EFEFEF;
+    } 
+
+    input {
+        width: 470px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #FAFAFA;
+        border: 5px;
+        margin: 7px auto ;
+        padding: 10px 15px 0px 10px;
+    }
+    
+    input::placeholder {
+        font-family: 'Acme';
+        font-weight: 400;
+        font-size: 25px;
+        color: #C5BFBF;
+        padding-left: 10px;
+    }
+    
+    button {
+        width: 350px;
+        height: 55px;
+        background: #077979;
+        border-radius: 20px;
+        font-family: 'Acme';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        color: #EFEFEF;
+        margin: 15px auto;
+    }
+    
+    a, p{
+        width: fit-content;
+        height: 25px;
+        font-family: 'Acme';
+        font-weight: 400;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin: 2px auto;
+    }
+}
